@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="overview">
+    <title>Overview</title>
+    <shortdesc/>
+    <conbody>
+        <p>The <b>Fast Response Cache Accelerator</b> (FRCA) improves the performance of the HTTP
+            Server by caching static files such as text and images, allowing them to be served from
+            the cache instead of the HTTP Server. However, this caching feature is only available
+            for non-secure connections and excludes certain types of content, such as dynamic pages
+            and protected pages.</p>
+    </conbody>
+</concept>

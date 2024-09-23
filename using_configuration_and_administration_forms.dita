@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="using_configuration_and_administration_forms">
+    <title>Using Configuration and Administration Forms</title>
+    <shortdesc>This task outlines how to enable the Fast Response Cache Accelerator (FRCA) through
+        the HTTP Server's user interface.</shortdesc>
+    <taskbody>
+        <context>Using the Configuration and Administration Forms provides a user-friendly way to
+            enable FRCA without manually editing configuration files. This task guides you through
+            the process of navigating the server interface, enabling the feature, and ensuring the
+            settings take effect.<p/></context>
+        <steps>
+            <step>
+                <cmd>Navigate to the HTTP Server's administration page.</cmd>
+            </step>
+            <step>
+                <cmd>Click on <b>Configuration and Administration Forms</b>.</cmd>
+            </step>
+            <step>
+                <cmd>Select <b>Fast Response Cache Accelerator</b>.</cmd>
+            </step>
+            <step>
+                <cmd>Enable FRCA by clicking <b>Enable Fast Response Cache Accelerator</b>.</cmd>
+            </step>
+            <step>
+                <cmd>Configure additional FRCA settings as needed, matching the options available in
+                    the <b>httpd.conf</b> file.</cmd>
+            </step>
+            <step>
+                <cmd>Restart the HTTP Server to apply the settings.</cmd>
+            </step>
+        </steps>
+    </taskbody>
+</task>

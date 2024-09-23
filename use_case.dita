@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="use_case">
+    <title>Use case</title>
+    <body>
+        <p></p>
+        <section id="section_awv_qpx_5cc">
+            <title>Avoid Caching Protected Pages</title>
+            <p>Consider a website, <b>ABC</b>, where <i>user authentication</i> is required to
+                access the home page. In this example, user <b>JOHNDOE</b> accesses the home page,
+                providing a valid ID and password. FRCA caches the page after this request. </p>
+            <p>When user JDOE later requests the same page, they receive the home page without being
+                prompted for authentication since it is served from the cache.</p>
+            <p>To prevent this, administrators should configure the <codeph>FRCANoCaching</codeph>
+                directive to exclude the home page from
+                caching:<codeblock id="codeblock_cqm_spx_5cc">FRCANoCaching /homepage.html
+</codeblock></p>
+        </section>
+    </body>
+</topic>

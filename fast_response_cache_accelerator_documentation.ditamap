@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE bookmap PUBLIC "-//OASIS//DTD DITA BookMap//EN" "bookmap.dtd">
+<bookmap>
+    <booktitle>
+        <mainbooktitle>Fast Response Cache Accelerator Documentation</mainbooktitle>
+    </booktitle>
+    <chapter href="overview.dita"/>
+    <chapter href="how_fast_response_cache_accelerator_works.dita"/>
+    <chapter href="enabling_fast_response_cache_accelerator.dita">
+        <topicref href="using_configuration_and_administration_forms.dita"/>
+        <topicref href="using_the_httpd_conf_file_0.dita"/>
+    </chapter>
+    <chapter href="preventing_files_from_being_cached.dita"/>
+    <chapter href="use_case.dita"/>
+    <chapter href="reference.dita">
+        <topicref href="gloss.dita"/>
+    </chapter>
+</bookmap>

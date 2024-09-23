@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="enabling_fast_response_cache_accelerator">
+    <title>Enabling Fast Response Cache Accelerator</title>
+    <body>
+        <p></p>
+        <p>This section guides users through the steps required to enable and configure the Fast
+            Response Cache Accelerator for an HTTP Server.</p>
+        <p><b>Prerequisites</b><ul id="ul_xsy_5lx_5cc">
+                <li>Access to the HTTP Server’s configuration files or the Configuration and
+                    Administration Forms.</li>
+                <li>Familiarity with editing the <codeph>httpd.conf</codeph> file or navigating the
+                    administration forms interface.</li>
+            </ul></p>
+    </body>
+</topic>

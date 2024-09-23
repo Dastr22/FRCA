@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="using_the_httpd_conf_file_0">
+    <title>Using the httpd.conf File</title>
+    <shortdesc>This task describes how to enable the Fast Response Cache Accelerator (FRCA) by
+        modifying the HTTP Server's configuration file.</shortdesc>
+    <taskbody>
+        <context>By enabling FRCA in the <b>httpd.conf </b>file, you allow the HTTP Server to cache
+            static content, improving response times for users. This task involves locating the
+            configuration file, making the necessary changes, and restarting the server to apply the
+            new settings.<p/></context>
+        <steps>
+            <step>
+                <cmd>Open the HTTP Server’s <b>httpd.conf </b>configuration file.</cmd>
+            </step>
+            <step>
+                <cmd>Locate or add the following directive:<codeph><b>EnableFRCA On</b>
+                    </codeph></cmd>
+            </step>
+            <step>
+                <cmd>Configure additional FRCA-related directives, such as <b>FRCANoCaching</b>,
+                    according to your caching requirements.</cmd>
+            </step>
+            <step>
+                <cmd>Save the changes to the <b>httpd.conf</b> file.</cmd>
+            </step>
+            <step>
+                <cmd>Restart the HTTP Server to apply the new configuration.</cmd>
+            </step>
+        </steps>
+    </taskbody>
+</task>

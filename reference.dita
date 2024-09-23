@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="reference">
+    <title>Reference</title>
+    <shortdesc>FRCA Directives</shortdesc>
+    <refbody>
+        <example>
+            <p>
+                <ul id="ol_eg1_f4x_5cc">
+                    <li><b><u>EnableFRCA</u></b></li>
+                </ul>
+            </p>
+            <p>Enables or disables the Fast Response Cache Accelerator.</p>
+            <p>
+                <ul id="ul_ugd_wnx_5cc">
+                    <li><b>Syntax</b>: <codeph>EnableFRCA On | Off</codeph></li>
+                    <li><b>Default</b>: <codeph>Off</codeph></li>
+                    <li><b>Example</b>:<codeblock id="codeblock_r23_c4x_5cc">EnableFRCA On</codeblock></li>
+                </ul>
+            </p>
+            
+        </example>
+        <example>
+            <p>
+                <ul id="c">
+                    <li><u><b>FRCANoCaching</b></u></li>
+                </ul>
+            </p>
+            <p>Specifies which URIs should not be cached by FRCA.</p>
+            <p>
+                <ul id="cc">
+                    <li><b>Syntax</b>: <codeph>FRCANoCaching /path/to/file</codeph></li>
+                    <li><b>Default</b>: <codeph>Not set</codeph></li>
+                    <li><b>Example</b>:<codeblock id="5cc">FRCANoCaching /usergroup/*.html
+FRCANoCaching /Docs/*.pdf</codeblock></li>
+                </ul>
+            </p>
+            
+        </example>
+    </refbody>
+</reference>

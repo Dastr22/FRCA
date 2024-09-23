@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE glossentry PUBLIC "-//OASIS//DTD DITA Glossary Entry//EN" "glossaryentry.dtd">
+<glossentry id="gloss">
+    <glossterm>Gloss</glossterm>
+    <glossdef><b>Fast Response Cache Accelerator (FRCA) </b><p>The Fast Response Cache Accelerator
+            (FRCA) is a feature of the HTTP Server that improves performance by caching static files
+            such as text and images. It serves cached files from the TCP/IP layer, bypassing the
+            HTTP Server for faster response times. FRCA operates only when the connection is not
+            secure (non-SSL) and does not cache dynamic content or protected pages.</p>
+        <text> FRCA automatically caches eligible files without requiring explicit listing, but
+            sensitive files should be excluded using the FRCANoCachin directive to ensure proper
+            authentication. </text>
+    </glossdef>
+</glossentry>

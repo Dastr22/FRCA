@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="how_fast_response_cache_accelerator_works">
+    <title>How Fast Response Cache Accelerator Works</title>
+    <body>
+        
+        <p><b>Fast Response Cache Accelerator (FRCA)</b></p>
+        <p>The Fast Response Cache Accelerator (FRCA) enhances HTTP Server performance by caching
+            static content such as text and images. Cached files are served directly from the TCP/IP
+            layer, bypassing the HTTP server for faster responses. FRCA is particularly useful when
+            serving content in unsecured (non-SSL) environments.</p>
+        <p><b>How FRCA Works</b></p>
+        <p>
+            <ul id="ul_ohp_yqx_5cc">
+                <li>When a file is first requested, it is served from the HTTP Server. Subsequent
+                    requests for the same file are served from the cache, stored in TCP/IP.</li>
+                <li>No configuration is required to determine which files to cache; FRCA
+                    automatically caches files, unless they are excluded via the FRCANoCaching
+                    directive.</li>
+            </ul>
+        </p>
+        <p><b>What FRCA Does Not Cache</b><ul id="ul_kn5_crx_5cc">
+                <li>Dynamic pages (e.g., CGI scripts, server-side includes).</li>
+                <li>Protected content that requires authentication unless explicitly excluded from
+                    caching.</li>
+                <li>Files requested over SSL connections.</li>
+                <li>Proxy-requested objects.</li>
+                <li>URLs specified in the FRCANoCaching directive.</li>
+            </ul></p>
+        
+        <p>
+            <b>Security Considerations </b></p>
+        
+        <p>Files stored in FRCA's cache do not require authentication when accessed. Therefore, to
+            prevent unauthorized access, administrators must ensure that sensitive or protected
+            files are excluded from caching using the <b>FRCANoCaching</b> directive.</p>
+    </body>
+</topic>

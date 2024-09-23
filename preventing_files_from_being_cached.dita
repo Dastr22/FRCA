@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="preventing_files_from_being_cached">
+    <title>Preventing Files from Being Cached</title>
+    <shortdesc></shortdesc>
+    <taskbody>
+        <context>To ensure certain URIs or protected content are not cached:<p/></context>
+        <steps>
+            <step>
+                <cmd>Use the FRCANoCaching directive to specify URIs that should not be cached.
+                    Example <codeph>FRCANoCaching /usergroup/<i>.html FRCANoCaching
+                        /Docs/</i>.pdf</codeph></cmd>
+            </step>
+            <step>
+                <cmd>Restart the HTTP Server after making changes. </cmd>
+            </step>
+        </steps>
+    </taskbody>
+</task>
