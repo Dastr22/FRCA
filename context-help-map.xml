@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map>
+   <appContext helpID="overview" path="overview.html"/>
+   <appContext helpID="how_fast_response_cache_accelerator_works"
+               path="how_fast_response_cache_accelerator_works.html"/>
+   <appContext helpID="enabling_fast_response_cache_accelerator"
+               path="enabling_fast_response_cache_accelerator.html"/>
+   <appContext helpID="using_configuration_and_administration_forms"
+               path="using_configuration_and_administration_forms.html"/>
+   <appContext helpID="using_the_httpd_conf_file_0"
+               path="using_the_httpd_conf_file_0.html"/>
+   <appContext helpID="preventing_files_from_being_cached"
+               path="preventing_files_from_being_cached.html"/>
+   <appContext helpID="use_case" path="use_case.html"/>
+   <appContext helpID="reference" path="reference.html"/>
+   <appContext helpID="gloss" path="gloss.html"/>
+</map>
